@@ -18,6 +18,9 @@ logger = get_logger(__name__)
 @step
 def encode_step(data: pd.DataFrame) -> Tuple [Annotated[Optional[pd.DataFrame], "Encoded Data"],
                                               Annotated[Optional[Dict], "Encoder Object"]]:
+    """
+    This step is encoded using label encoder
+    """
     label_encoders = None
     try:
         label_encoders = {}
