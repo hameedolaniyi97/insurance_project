@@ -1,1 +1,1 @@
-This project is a FastAPI-based machine learning web service that predicts medical insurance charges based on user input features such as age, sex, BMI, number of children, smoking status, and region
+
